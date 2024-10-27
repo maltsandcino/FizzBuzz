@@ -1,7 +1,7 @@
 
 n = input("Enter a number to FizzBuzz: ")
 
-if n.isnumeric() == False:
+if not n.isnumeric():
     while True:
         n = input("Your input was not a number. Please enter a number in digit form: ")
         if n.isnumeric():
